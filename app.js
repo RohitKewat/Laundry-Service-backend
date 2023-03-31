@@ -33,7 +33,7 @@ const cookieParser = require("cookie-parser");
 const cors = require('cors');
 app.use(cookieParser());
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://strong-speculoos-cb306a.netlify.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
